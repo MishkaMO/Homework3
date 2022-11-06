@@ -17,7 +17,17 @@ public class Main {
         byte yearsOld = 67;
         System.out.println(yearsOld);
 
-
-
+byte ludmilaPavlovna = 23;
+System.out.println("В классе Людмилы Павловны " + ludmilaPavlovna + " человек");
+        byte annaSergeevna = 27;
+        System.out.println("В классе Анны Сергеевны " + annaSergeevna + " человек");
+        byte ekateriniAndreevni = 30;
+        System.out.println("В классе Екатерины Андреевны " + ekateriniAndreevni + " человек");
+        int totalStudents = ludmilaPavlovna + annaSergeevna + ekateriniAndreevni;
+        System.out.println("Общее количество учеников " + totalStudents );
+        short boughtPaper = 480;
+        System.out.println("Закупили бумаги " + boughtPaper + " листов");
+                int shareEveryone = boughtPaper/totalStudents;
+        System.out.println( "На каждого ученика рассчитано " + shareEveryone + " листов бумаги");
     }
 }
