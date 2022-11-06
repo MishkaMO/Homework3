@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Значение переменной sunflowerSeeds " + "с типом short равно " + sunflowerSeeds);
         long programBytes = 9213985321458652845L;
         System.out.println("Значение переменной programBytes " + "с типом long равно " + programBytes);
-        float backpackWeight = 45;
+        float backpackWeight = 45.23f;
         System.out.println("Значение переменной backpackWeight " + "с типом float равно " + backpackWeight);
         double weightApples = 3.2;
         System.out.println("Значение переменной weightApples " + "с типом double равно " + weightApples);
