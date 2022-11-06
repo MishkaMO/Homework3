@@ -29,5 +29,27 @@ System.out.println("В классе Людмилы Павловны " + ludmilaP
         System.out.println("Закупили бумаги " + boughtPaper + " листов");
                 int shareEveryone = boughtPaper/totalStudents;
         System.out.println( "На каждого ученика рассчитано " + shareEveryone + " листов бумаги");
+
+        byte bottles = 16;
+        byte timeMinutes = 2;
+        System.out.println("За " + timeMinutes + " минуты машина произвела бутылок " + bottles + " штук");
+        int performanceMinute = bottles / timeMinutes;
+        byte firstTime = 20;
+        int totalTime20 = bottles / timeMinutes * firstTime;
+        System.out.println("За " + firstTime + " минут машина произвела бутылок " + totalTime20 + " штук");
+        byte secondTime = 1;
+        byte dayHours = 24;
+        byte hoursMinutes = 60;
+        int totalTime2 = dayHours * hoursMinutes * performanceMinute;
+        System.out.println("За " + secondTime + " сутки машина произвела бутылок " + totalTime2 + " штук");
+        byte thirdTime = 3;
+        int minutesDay3 = thirdTime * dayHours * hoursMinutes ;
+        int totalTime3 = minutesDay3 * performanceMinute;
+        System.out.println("За " + thirdTime + " суток машина произвела бутылок " + totalTime3 + " штук");
+        byte fourthTime = 1;
+        int monthDays = 30;
+        int totalTime4 = fourthTime * monthDays * totalTime2;
+        System.out.println("За " + fourthTime + " месяц машина произвела бутылок " + totalTime4 + " штук");
+
     }
 }
