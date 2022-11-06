@@ -51,5 +51,13 @@ System.out.println("В классе Людмилы Павловны " + ludmilaP
         int totalTime4 = fourthTime * monthDays * totalTime2;
         System.out.println("За " + fourthTime + " месяц машина произвела бутылок " + totalTime4 + " штук");
 
+        byte totalCans = 120;
+        byte whiteColor = 2;
+        byte brownColor = 4;
+        int cansTotalClassroom = whiteColor + brownColor;
+        int totalClassroom = totalCans / cansTotalClassroom;
+        int totalWhiteColor = totalClassroom * whiteColor;
+        int totalBrownColor = totalClassroom * brownColor;
+        System.out.println("В школе, где " + totalClassroom + " классов, нужно " + totalWhiteColor + " банок белой краски и " + totalBrownColor + " банок коричневой краски");
     }
 }
