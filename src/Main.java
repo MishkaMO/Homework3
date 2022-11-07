@@ -59,5 +59,20 @@ System.out.println("В классе Людмилы Павловны " + ludmilaP
         int totalWhiteColor = totalClassroom * whiteColor;
         int totalBrownColor = totalClassroom * brownColor;
         System.out.println("В школе, где " + totalClassroom + " классов, нужно " + totalWhiteColor + " банок белой краски и " + totalBrownColor + " банок коричневой краски");
+
+
+        float weightBanana = 80f;
+        float weightMilk = 105f;
+        float weightIcecream = 100f;
+        float weightEgg = 70f;
+        System.out.println("Вот один из рецептов который использует наш спортсмен перед тренировкой: Бананы 5 штук, Молоко 200 мл, Мороженое пломбир 2 брикета, Яйца сырые 4 яйца");
+        float banana = 5f;
+        float milk = 2f;
+        float icecream = 2f;
+        float eggs = 4f;
+        float totalWeight = weightBanana * banana + weightIcecream * icecream + weightEgg * eggs + weightMilk + milk;
+       int measure = 1000;
+        System.out.println("Общий вескоктеля " + totalWeight / measure + " кг");
+
     }
 }
